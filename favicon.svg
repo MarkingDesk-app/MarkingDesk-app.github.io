@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="MarkingDesk icon">
+  <defs>
+    <linearGradient id="mdg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5a5df0" />
+      <stop offset="100%" stop-color="#3d40c2" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#mdg)" />
+  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1">MD</text>
+</svg>

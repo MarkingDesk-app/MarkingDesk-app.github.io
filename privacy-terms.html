@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="application-name" content="MarkingDesk" />
+  <meta name="apple-mobile-web-app-title" content="MarkingDesk" />
+  <meta name="description" content="Privacy and terms information for MarkingDesk.app." />
+  <title>Privacy &amp; Terms | MarkingDesk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="logo" href="index.html" aria-label="MarkingDesk home">
+        <span class="logo-mark" aria-hidden="true">MD</span>
+        <span class="logo-wordmark">MarkingDesk<span>.app</span></span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a class="cta" href="https://portal.markingdesk.app/signup">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Privacy &amp; Terms</h1>
+        <p class="muted">Last updated: 28 February 2026</p>
+        <p class="section-lead">MarkingDesk is committed to protecting customer data and providing clear expectations for how our service is used. This notice explains what we collect, how we use it, and your rights.</p>
+
+        <h2>Who We Are</h2>
+        <p>MarkingDesk.app (&ldquo;MarkingDesk&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) provides software for managing assessment and marking workflows. For privacy queries, please use <a href="contact.html">our contact page</a>.</p>
+
+        <h2>Scope</h2>
+        <p>This policy applies to our website, application portal, APIs, and related support channels. By using MarkingDesk you agree to these terms and our handling of information as described below.</p>
+
+        <h2>Information We Collect</h2>
+        <ul>
+          <li><strong>Account data</strong> such as names, emails, authentication details, and workspace settings.</li>
+          <li><strong>Assessment workspace data</strong> including submissions metadata, allocation records, rubrics, comments, and moderation notes.</li>
+          <li><strong>Support data</strong> including messages, timestamps, and technical diagnostics needed to resolve issues.</li>
+          <li><strong>Billing data</strong> such as subscription status, invoices, and payment references handled by our payment providers.</li>
+          <li><strong>Usage telemetry</strong> such as device/browser details and feature usage analytics, typically in aggregated form.</li>
+        </ul>
+
+        <h2>How We Use Data</h2>
+        <ul>
+          <li>Provide, operate, and maintain the MarkingDesk platform.</li>
+          <li>Authenticate users, secure workspaces, and prevent abuse.</li>
+          <li>Process subscriptions and customer support requests.</li>
+          <li>Improve product performance and usability.</li>
+          <li>Meet legal, regulatory, and contractual requirements.</li>
+        </ul>
+
+        <h2>Legal Basis</h2>
+        <p>Where applicable, we process personal data based on contractual necessity, legitimate interests, legal obligations, and consent where explicitly provided.</p>
+
+        <h2>Cookies</h2>
+        <p>We use essential cookies for sign-in and session management. We may use limited analytics cookies to understand aggregate platform usage. You can manage cookies via browser settings.</p>
+
+        <h2>Security</h2>
+        <p>We apply industry-standard safeguards including encryption in transit, access controls, logging, and backup procedures. Security controls are reviewed and improved continuously.</p>
+
+        <h2>Data Retention</h2>
+        <p>Workspace data is retained while an account is active. On request or cancellation, deletion processes are initiated according to operational and legal requirements. Backup and log retention may continue for a limited period for resilience and auditing.</p>
+
+        <h2>Subprocessors and Transfers</h2>
+        <p>We rely on trusted infrastructure and service providers to deliver MarkingDesk. Where international data transfers occur, we implement contractual safeguards required by applicable law.</p>
+
+        <h2>Your Rights</h2>
+        <p>Depending on jurisdiction, you may have rights to access, correct, delete, restrict, or port personal data. To exercise your rights, use <a href="contact.html">our contact page</a>.</p>
+
+        <h2>Acceptable Use</h2>
+        <ul>
+          <li>Use the service lawfully and do not attempt unauthorised access.</li>
+          <li>Do not upload malicious, infringing, or abusive content.</li>
+          <li>Report security concerns promptly through official support channels.</li>
+        </ul>
+
+        <h2>Service Updates</h2>
+        <p>We may update features, pricing, infrastructure, and these terms from time to time. Material policy changes will be reflected by an updated effective date on this page.</p>
+
+        <h2>Contact</h2>
+        <p>For legal, privacy, or compliance questions, use <a href="contact.html">our contact page</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> MarkingDesk.app. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="privacy-terms.html">Privacy &amp; Terms</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear().toString();
+    }
+  </script>
+</body>
+</html>
